@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolate Chip Cookies</title>
     <style>
+        /* Base styles for the body of the page */
         body {
             background-color: #fdf6f0;
             margin-left: 10%;
@@ -13,13 +14,14 @@
             font-family: Arial, sans-serif;
         }
 
+        /* Styles for the main header*/
         header {
             background-color: #f80202;
             color: rgb(221, 214, 227);
             padding: 20px;
         }
 
-        #mainHeader {
+        h1 {
             color: #FFD700;
             text-align: center;
         }
@@ -33,52 +35,54 @@
             padding: 0;
         }
 
-        nav li {
+        nav ul li {
             display: inline;
             margin: 0 15px;
         }
 
+        /* Centers the main content area */
         main {
             text-align: center;
             padding: 20px;
         }
 
-        .cookie-image {
+        /* Styles for recipe Heading */
+        .recipe-heading {
+            color: #030303;
+        }
+
+        /* Styles for the ingredients and instructions */
+        .recipe-list {
+            text-align: left;
+            display: inline-block;
+        }
+
+        /* Styles for the video section */
+        .video-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style for the image */
+        #cookie-image {
             border: 3px solid black;
             border-radius: 15px;
             box-shadow: 5px 5px 15px grey;
         }
 
-        h2 {
-            color: #030303;
-        }
-
-        ul.ingredients,
-        ol.instructions {
-            text-align: left;
-            display: inline-block;
-        }
-
-        section {
-            text-align: center;
-            padding: 20px;
-        }
-
-        iframe {
+        /* Style for the video frame */
+        #video-frame {
             border: none;
             box-shadow: 3px 3px 10px gray;
             border-radius: 10px;
         }
 
+        /* Styles for the footer*/
         footer {
             background-color: #f80202;
             color: rgb(221, 214, 227);
             text-align: center;
             padding: 20px;
-        }
-
-        mark {
-            background-color: yellow;
         }
     </style>
 </head>
@@ -86,23 +90,29 @@
 <body>
 
     <header>
-        <h1 id="mainHeader">Chocolate Chip Cookies</h1>
+        <h1>Chocolate Chip Cookies</h1>
         <nav>
             <ul>
-                <li><a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">Recipes</a></li>
-                <li><a href="https://www.allrecipes.com/article/how-to-store-cookies/">Storage</a></li>
-                <li><a href="https://www.allrecipes.com/article/freezing-cookies-and-cookie-dough/">Freezing</a></li>
+                <li>
+                    <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">Recipes</a>
+                </li>
+                <li>
+                    <a href="https://www.allrecipes.com/article/how-to-store-cookies/">Storage</a>
+                </li>
+                <li>
+                    <a href="https://www.allrecipes.com/article/freezing-cookies-and-cookie-dough/">Freezing</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div>
-            <img src="cookies.jpg" alt="Chocolate Chip Cookies" width="250" height="250" class="cookie-image">
+            <img src="cookies.jpg" alt="Chocolate Chip Cookies" width="250" height="250" id="cookie-image">
         </div>
 
-        <h2>The Ultimate Cookie Recipe Ingredients</h2>
-        <ul class="ingredients">
+        <h2 class="recipe-heading">The Ultimate Cookie Recipe Ingredients</h2>
+        <ul class="recipe-list">
             <li>1 cup unsalted butter</li>
             <li>1 cup white sugar</li>
             <li>1 cup packed brown sugar</li>
@@ -115,8 +125,8 @@
             <li>2 cups semisweet chocolate chips</li>
         </ul>
 
-        <h2>The Ultimate Cookie Recipe Instructions</h2>
-        <ol class="instructions">
+        <h2 class="recipe-heading">The Ultimate Cookie Recipe Instructions</h2>
+        <ol class="recipe-list">
             <li>Preheat oven to 350°F (175°C).</li>
             <li>Cream together the butter, white sugar, and brown sugar until smooth.</li>
             <li>Beat in the eggs one at a time, then stir in the vanilla.</li>
@@ -127,10 +137,10 @@
         </ol>
     </main>
 
-    <section>
+    <section class="video-section">
         <h3><u>Watch the Recipe Video</u></h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LsnEE5ykwCs?si=A-tuKv3lHhmpb-ta"
-            title="YouTube video player"
+            title="YouTube video player" id="video-frame"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
         </iframe>
@@ -144,7 +154,7 @@
             <cite><small>"Epicurious"</small></cite>
         </div>
         <p>
-            &copy; <small>2025 The Best Chocolate Chip Cookies You Will Ever Make (Bakery-Quality). All rights
+            © <small>2025 The Best Chocolate Chip Cookies You Will Ever Make (Bakery-Quality). All rights
                 reserved.</small>
         </p>
     </footer>
