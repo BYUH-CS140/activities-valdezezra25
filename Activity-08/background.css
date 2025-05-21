@@ -3,6 +3,7 @@ body {
   background-color: #7ed1f4;
   color: #000000;
   padding: 20px;
+  background-image: url('sky.jpg');
 }
 
 header {
