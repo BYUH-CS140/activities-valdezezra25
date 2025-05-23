@@ -1,0 +1,66 @@
+/* Step 1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Step 2 */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Step 3 */
+#page-header {
+    background-image: url("pattern-bg.png");
+    background-size: cover;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+/* Step 4 */
+.title {
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
+
+/* Step 5 */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Step 6 */
+.nav-list > li {
+    padding: 0.25rem 0.75rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+/* Step 7 */
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Step 8 */
+.nav-list a:hover {
+    color: #333333;
+    background: #ffffff;
+}
+
+/* Step 9 */
+.resources {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 60%;
+}
+
+/* Step 10 */
+.resources li {
+    margin-bottom: 0.5rem;
+}
