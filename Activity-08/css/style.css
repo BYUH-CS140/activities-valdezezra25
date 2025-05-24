@@ -1,0 +1,64 @@
+/* Step 1 */
+body {
+    background-image: url("cbackground.jpg");
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, sans-serif;
+}
+
+/* Step 2 */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Step 3 */
+#page-header {
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 15px grey;
+    padding: 1rem;
+}
+
+/* Step 4 */
+.title {
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
+
+/* Step 5 */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Step 6 */ 
+.nav-list > li {
+    padding: 0.25rem 0.75rem;
+    background-color: #e0da82;
+    border-radius: 10px;
+}
+
+/* Step 7 */
+.nav-list a {
+    text-decoration: none;
+    color: #0f0e0e;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Step 8 */
+.nav-list a:hover {
+    color: #333333;
+    background: #0d0d0d;
+}
+
+/* Step 9 */
+.resources {
+    background-color: none;
+    text-decoration: double;
+    padding: 20px;
+}
