@@ -1,10 +1,8 @@
 /* Step 1 */
-body {
-    background-image: url("cbackground.jpg");
-    
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Step 2 */
@@ -15,10 +13,9 @@ body {
 
 /* Step 3 */
 #page-header {
-    border: 3px solid black;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 5px 5px 15px grey;
+    background-image: url("pattern-bg.png");
+    background-size: cover;
+    color: #ffffff;
     padding: 1rem;
 }
 
@@ -35,30 +32,35 @@ body {
     gap: 1rem;
 }
 
-/* Step 6 */ 
+/* Step 6 */
 .nav-list > li {
     padding: 0.25rem 0.75rem;
-    background-color: #e0da82;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
 }
 
 /* Step 7 */
 .nav-list a {
     text-decoration: none;
-    color: #0f0e0e;
+    color: #ffffff;
     font-size: 1rem;
-    text-align: center;
 }
 
 /* Step 8 */
 .nav-list a:hover {
     color: #333333;
-    background: #0d0d0d;
+    background: #ffffff;
 }
 
 /* Step 9 */
 .resources {
-    background-color: none;
-    text-decoration: double;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 60%;
+}
+
+/* Step 10 */
+.resources li {
+    margin-bottom: 0.5rem;
 }
