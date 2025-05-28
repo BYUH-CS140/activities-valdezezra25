@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Step 1 */
 * {
     margin: 0;
@@ -8,15 +10,11 @@
 /* Step 2 */
 body {
     font-family: "Segoe UI", Arial, sans-serif;
-    background-color: #f2f2f2;
-}
-
-/* Step 3 */
-#page-header {
-    background-image: url("pattern-bg.png");
-    background-size: cover;
-    color: #ffffff;
-    padding: 1rem;
+    background-image: url("cbackground.jpg");
+    background-color: #fdf6f0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, sans-serif;
 }
 
 /* Step 4 */
