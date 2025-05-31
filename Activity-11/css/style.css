@@ -1,0 +1,54 @@
+/* Styles for the body of the page */
+body {
+    background-color: none;
+    text-align: center; /* I need to edit the text ali */
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, sans-serif;
+    background-image: url('cbackground.jpg');
+}
+/* Flex container for recipe content */
+.recipe-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Flex columns for ingredients and instructions */
+.recipe-column {
+    flex: 1;
+    min-width: 280px;
+    background-color: #fff5ee;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Floated image with wrapping text */
+.floated-section {
+    overflow: hidden;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f5db;
+    border: 1px solid #e0dede;
+    border-radius: 10px;
+}
+
+.floated-section img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.floated-section p {
+    text-align: justify;
+    line-height: 1.6;
+}
