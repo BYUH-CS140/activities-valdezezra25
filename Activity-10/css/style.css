@@ -59,8 +59,8 @@ main {
   border: 5px solid brown;
   border-radius: 30px;
   box-shadow: 5px 5px 15px grey;
-  height: 30%;
-  width: 30%;
+  height: 50%;
+  width: 50%;
 }
 
 section {
