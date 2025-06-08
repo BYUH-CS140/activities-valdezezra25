@@ -1,4 +1,3 @@
-<!--HTML Structure-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,25 +10,20 @@
 </head>
 
 <body>
+
     <!--Header and Navigation Bar-->
     <header>
         <h1>Chocolate Chip Cookies</h1>
         <nav>
             <ul>
-                <li>
-                    <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">Recipes</a>
-                </li>
-                <li>
-                    <a href="https://www.allrecipes.com/article/how-to-store-cookies/">Storage</a>
-                </li>
-                <li>
-                    <a href="https://www.allrecipes.com/article/freezing-cookies-and-cookie-dough/">Freezing</a>
-                </li>
+                <li><a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">Recipes</a></li>
+                <li><a href="https://www.allrecipes.com/article/how-to-store-cookies/">Storage</a></li>
+                <li><a href="https://www.allrecipes.com/article/freezing-cookies-and-cookie-dough/">Freezing</a></li>
             </ul>
         </nav>
     </header>
-    
-    <!--Two Column Layout-->
+
+    <!--Two Column Layout Using Flexbox-->
     <main>
         <section class="recipe-content">
             <div class="recipe-column">
@@ -60,19 +54,23 @@
                 </ol>
             </div>
         </section>
-
     </main>
 
-    <!--Floated Image-->
+    <!--Floated Image with Wrapping Text-->
     <section class="media-section">
-        <div class="text-with-image">
-            <img src="images/cookies.jpg" alt="Chocolate Chip Cookies" width="250" height="250" id="cookie-image">
+        <img src="images/cookies.jpg" alt="Chocolate Chip Cookies"  width="250" height="250"class="float-img">
+        <p>
             <mark>
-                Chocolate chip cookies are a classic treat, loved for their soft centers, crispy edges, and melty
-                chocolate.
-                Perfect for any sweet craving! Watch the video below to learn how to make the ultimate batch.
+                Chocolate chip cookies are a classic treat, loved for their soft centers, crispy edges, and melty chocolate.
+                Perfect for any sweet craving! Cookies are good because they are delicious, comforting, and easy to enjoy.
+                Their sweet flavor, soft or crunchy texture, and endless variety—from chocolate chip to peanut butter—
+                make them a favorite treat for people of all ages. Cookies are also convenient to eat on the go, simple to bake,
+                and fun to share with friends or family. Many people connect cookies with happy memories, like baking at home
+                or enjoying them during holidays, which adds emotional warmth to every bite. Whether homemade or store-bought,
+                cookies bring joy and satisfaction in a small, tasty package.
             </mark>
-        </div>
+        </p>
+
         <div class="video-wrapper">
             <h3><u>Watch the Recipe Video</u></h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/LsnEE5ykwCs?si=A-tuKv3lHhmpb-ta"
@@ -83,7 +81,7 @@
         </div>
     </section>
 
-
+    <!--Footer-->
     <footer>
         <div>
             <blockquote>
@@ -92,8 +90,7 @@
             <cite><small>"Epicurious"</small></cite>
         </div>
         <p>
-            © <small>2025 The Best Chocolate Chip Cookies You Will Ever Make (Bakery-Quality). All rights
-                reserved.</small>
+            © <small>2025 The Best Chocolate Chip Cookies You Will Ever Make (Bakery-Quality). All rights reserved.</small>
         </p>
     </footer>
 

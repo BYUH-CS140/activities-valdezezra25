@@ -1,12 +1,41 @@
 /* Styles for the body of the page */
 body {
-    background-color: none;
-    text-align: center; /* I need to edit the text ali */
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
     font-family: Arial, sans-serif;
     background-image: url('cbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+/* Header Styles */
+header {
+    background-color: #6b3e26;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* Flex container for recipe content */
 .recipe-content {
     display: flex;
@@ -27,28 +56,11 @@ body {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Floated image with wrapping text */
-.floated-section {
+/* Floated image section (updated class name to match HTML) */
+.media-section {
     overflow: hidden;
     margin-top: 40px;
     padding: 20px;
     background-color: #f9f5db;
-    border: 1px solid #e0dede;
-    border-radius: 10px;
-}
-
-.floated-section img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 15px;
-    width: 250px;
-    height: auto;
-    border: 3px solid black;
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px grey;
-}
-
-.floated-section p {
-    text-align: justify;
-    line-height: 1.6;
+    border: 1px solid
 }
