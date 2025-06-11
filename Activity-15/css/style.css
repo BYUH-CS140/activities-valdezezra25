@@ -21,7 +21,7 @@ body {
 /* --- 2. Header Banner --- */
 header {
     background-color: #064b90;
-    color: #ecf0f1;
+    color: #29a9c9;
     padding: 1.5rem 0;
     text-align: center;
     box-shadow: 0 3px 6px rgba(63, 66, 63, 0.2);
@@ -132,6 +132,7 @@ nav a:focus {
 /* --- 6. Contact Section Styling --- */
 .contact {
     background-image: url('../images/sky.jpg');
+    
     padding: 25px;
     margin: 30px auto;
     max-width: 600px;
