@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 .float-img {
-    float: left;
+    float: center;
     margin-right: 1rem;
     width: 300%;
     max-width: 300px;
