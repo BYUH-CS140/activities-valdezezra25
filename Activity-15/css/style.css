@@ -21,7 +21,7 @@ body {
 /* --- 2. Header Banner --- */
 header {
     background-color: #064b90;
-    color: #29a9c9;
+    color: #f0f4f5;
     padding: 1.5rem 0;
     text-align: center;
     box-shadow: 0 3px 6px rgba(63, 66, 63, 0.2);
@@ -60,7 +60,7 @@ nav a:focus {
     outline: none;
 }
 
-/* --- 4. General Content Area Styling --- */
+/* --- 4. Place Styling --- */
 .content {
     flex-grow: 1;
     max-width: 960px;
@@ -106,11 +106,11 @@ nav a:focus {
     color: #555;
 }
 
-/* --- 5. Image & Float Styling --- */
+/* --- 5. Food Image & Float Styling --- */
 .main-image {
     margin-bottom: 2.5rem;
     overflow: auto;
-    text-align: center;
+    text-align: justify;
 }
 
 .main-image img {
@@ -131,8 +131,6 @@ nav a:focus {
 
 /* --- 6. Contact Section Styling --- */
 .contact {
-    background-image: url('../images/sky.jpg');
-    
     padding: 25px;
     margin: 30px auto;
     max-width: 600px;
@@ -192,7 +190,7 @@ footer p {
     margin: 0;
 }
 
-/* --- 9. Responsive Design --- */
+/* --- 9. Contact Design --- */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.2rem;
@@ -229,7 +227,7 @@ footer p {
     .float-img {
         float: none;
         display: block;
-        width: 100%;
+        width: 400%;
         margin: 0 auto 1.5rem auto;
     }
 
@@ -240,7 +238,7 @@ footer p {
     }
 
     .contact h2 {
-        text-align: left;
+        text-align: center;
     }
 }
 
@@ -293,7 +291,7 @@ a.icon-link:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* --- Custom Style for the 'Food' Link --- */
+/* --'Food' Link styling --- */
 a[href="food.html"] {
     display: inline-block;
     background-color: #0d4074;
@@ -311,7 +309,7 @@ a[href="food.html"]:hover {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* --- Mobile Responsive Design (max-width: 480px) --- */
+/* --- Mobile Responsive Design  --- */
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.8rem;
