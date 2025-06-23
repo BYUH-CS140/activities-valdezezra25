@@ -154,6 +154,46 @@ nav ul li a:hover {
   height: auto;
 }
 
+/* Ilocos Norte Fun Fact Generator */
+.fact-box {
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.fact-box p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.fact-box button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #009688;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fact-box button:hover {
+  background-color: #00796b;
+}
+
+#funFact {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: #2c3e50;
+}
+
 /* Contact Section */
 .contact {
   padding: 25px;
@@ -266,8 +306,9 @@ a[href=\"food\"]:hover {
 }
 /* Responsive Styling */
 
-/* Small Devices (<=480px) */
-@media (max-width: 480px) {
+
+/* Small Devices (<=500px) */
+@media (max-width: 500px) {
   header h1 { font-size: 1.8rem; }
   nav ul { flex-direction: column; }
   nav ul li a { width: 90%; text-align: center; }
@@ -282,8 +323,8 @@ a[href=\"food\"]:hover {
   }
 }
 
-/* Medium Devices (>=600px) */
-@media (min-width: 600px) {
+/* Medium Devices (>=700px) */
+@media (min-width: 700px) {
   nav ul {
     flex-direction: row;
     justify-content: center;
@@ -295,31 +336,33 @@ a[href=\"food\"]:hover {
   .content section {
     flex: 1 1 45%;
   }
+  .main-content img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-/* Tablets (<=768px) */
-@media (max-width: 768px) {
-  header h1 { font-size: 2.2rem; }
-  nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
-  nav ul li a { padding: 0.7rem 1.2rem; margin: 0; }
-  .content { padding: 1.2rem; margin: 1.5rem auto; }
-  .content h2 { font-size: 1.7rem; }
-  .content p { font-size: 1rem; text-align: center; }
-  .contact { width: 95%; padding: 15px; margin: 20px auto; }
-}
-
-/* Large Devices (>=992px) */
-@media (min-width: 992px) {
+/* Large Devices (>=1000px) */
+@media (min-width: 1000px) {
   body { padding: 40px; }
   .content {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1300px;
   }
   .container { flex-direction: row; }
   .content section { flex: 1 1 30%; }
   nav ul li a {
-    max-width: 1000px;
+    max-width: 100px;
     margin: 0 auto;
   }
+
+  .main-content img {
+    max-width: 100%;
+    height: auto;
+    
+  }
 }
+
+
+
