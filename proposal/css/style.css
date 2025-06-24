@@ -33,13 +33,14 @@ header h1 {
   font-size: 2.8rem;
   letter-spacing: 0.08em;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  
 }
 
-/* Navigation Bar */
+/* Navigation Bar for 5 Boxes */
 nav {
   margin-bottom: 20px;
   background-color: #214478;
-  padding: 0.8rem 0;
+  padding: 0.5rem 0;
   box-shadow: 0 2px 4px rgba(14, 13, 13, 0.15);
 }
 
@@ -57,11 +58,11 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 5px 20px;
   background-color: #fbf7f7;
-  border-radius: 8px;
+  border-radius: 30px;
   color: #020603;
-  font-weight: bold;
+  font-weight: auto;
   display: inline-block;
 }
 
@@ -157,25 +158,25 @@ nav ul li a:hover {
 /* Ilocos Norte Fun Fact Generator */
 .fact-box {
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: max-content;
   padding: 1.5rem;
   border-radius: 12px;
   background-color: #f9f9f9;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(121, 4, 4, 0.1);
   text-align: center;
 }
 
 .fact-box p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #333;
+  color: #0b0b0b;
 }
 
 .fact-box button {
   margin-top: 1rem;
   padding: 1rem 2rem;
   font-size: 1.1rem;
-  background-color: #009688;
+  background-color: #09b9d4;
   color: white;
   border: none;
   border-radius: 25px;
@@ -184,14 +185,14 @@ nav ul li a:hover {
 }
 
 .fact-box button:hover {
-  background-color: #00796b;
+  background-color: #790000;
 }
 
 #funFact {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: auto;
   margin-top: 1.5rem;
-  color: #2c3e50;
+  color: #101010;
 }
 
 /* Contact Section */
@@ -230,15 +231,16 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Footer */
+/* Footer 2-5 pages */
 footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 100px;
   font-size: 0.9em;
   color: #ecf0f1;
   background-color: #064b90;
-  padding: 1.5rem 0;
+  padding: 0.1rem ;
   box-shadow: 0 -3px 6px rgba(0,0,0,0.2);
+  width: 100%;
 }
 
 /* Link Styles */
