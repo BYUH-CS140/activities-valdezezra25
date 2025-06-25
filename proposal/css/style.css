@@ -230,6 +230,28 @@ nav ul li a:hover {
   color: #005699;
   text-decoration: underline;
 }
+/*Feedback Form*/
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.6em 1.2em;
+    background-color: #0d4074;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3b658a;
+}
 
 /* Footer 2-5 pages */
 footer {
